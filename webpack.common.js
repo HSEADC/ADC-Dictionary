@@ -93,6 +93,142 @@ module.exports = {
       chunks: ['page']
     }),
 
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/CJM-customer-journey-map.html',
+      filename: './words/CJM-customer-journey-map.html',
+      chunks: ['CJM']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/custdev.html',
+      filename: './words/custdev.html',
+      chunks: ['custdev']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Figma.html',
+      filename: './words/Figma.html',
+      chunks: ['Figma']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/partizanskiy-marketing.html',
+      filename: './words/partizanskiy-marketing.html',
+      chunks: ['partizanskiy-marketing']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Illustrator.html',
+      filename: './words/Illustrator.html',
+      chunks: ['Illustrator']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Indesign.html',
+      filename: './words/Indesign.html',
+      chunks: ['Indesign']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/job-stories.html',
+      filename: './words/job-stories.html',
+      chunks: ['job-stories']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/JBTD-jobs-to-be-done.html',
+      filename: './words/JBTD-jobs-to-be-done.html',
+      chunks: ['JBTD-jobs-to-be-done']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/KPI-key-perfomance-indicators.html',
+      filename: './words/KPI-key-perfomance-indicators.html',
+      chunks: ['KPI-key-perfomance-indicators']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/newsjacking.html',
+      filename: './words/newsjacking.html',
+      chunks: ['newsjacking']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Photoshop.html',
+      filename: './words/Photoshop.html',
+      chunks: ['Photoshop']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Readymag.html',
+      filename: './words/Readymag.html',
+      chunks: ['Readymag']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/situacionniy-marketing.html',
+      filename: './words/situacionniy-marketing.html',
+      chunks: ['situacionniy-marketing']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Sketch.html',
+      filename: './words/Sketch.html',
+      chunks: ['Sketch']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/soft.html',
+      filename: './words/soft.html',
+      chunks: ['soft']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/Tilda.html',
+      filename: './words/Tilda.html',
+      chunks: ['Tilda']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/words/user-stories.html',
+      filename: './words/user-stories.html',
+      chunks: ['user-stories']
+    }),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {

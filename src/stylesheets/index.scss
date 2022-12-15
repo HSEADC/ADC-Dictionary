@@ -1,11 +1,109 @@
-body.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  & > div,
-  & > a {
-    margin: 10px 0;
+// body.index {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//
+//   & > div,
+//   & > a {
+//     margin: 10px 0;
+//   }
+// }
+body {
+  margin: 0 auto;
+}
+h1 {
+  max-width: 924px;
+  text-align: left;
+  margin: 20px auto;
+  font-family: 'ADC-Semi-Bold';
+  font-size: 36px;
+}
+.cards {
+  max-width: 924px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  margin: 0 auto;
+  gap: 4px 4px;
+}
+.card {
+  width: 100%;
+  /* height: 500px; */
+  background: grey;
+  /* margin: 4px; */
+  cursor: pointer;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  padding-bottom: 177.8%;
+  box-sizing: border-box;
+  position: relative;
+}
+.card > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.n1 {
+  background-image: url('./images/CJM.png');
+}
+.n2 {
+  background-image: url('./images/custdev.png');
+}
+.n3 {
+  background-image: url('./images/figma.png');
+}
+.n4 {
+  background-image: url('./images/guerrilla-marketing.png');
+}
+.n5 {
+  background-image: url('./images/illustrator.png');
+}
+.n6 {
+  background-image: url('./images/Indesign.png');
+}
+.n7 {
+  background-image: url('./images/JTBD-1.png');
+}
+.n8 {
+  background-image: url('./images/JTBD.png');
+}
+.n9 {
+  background-image: url('./images/KPI.png');
+}
+.n10 {
+  background-image: url('./images/newsjacking.png');
+}
+.n11 {
+  background-image: url('./images/photoshop.png');
+}
+.n12 {
+  background-image: url('./images/readymag.png');
+}
+.n13 {
+  background-image: url('./images/situational-marketing.png');
+}
+.n14 {
+  background-image: url('./images/sketch.png');
+}
+.n15 {
+  background-image: url('./images/soft.png');
+}
+.n16 {
+  background-image: url('./images/tilda.png');
+}
+.n17 {
+  background-image: url('./images/userstories.png');
+}
+.n18 {
+  background-image: url('./images/UTP.png');
+}
+@media all and (max-device-width: 1280px) {
+  .h1 {
+    font-size: 18px;
   }
 }
