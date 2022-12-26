@@ -237,6 +237,51 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
+    ]),
+
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/card/adcuser.html'),
+        location: 'adcuser',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/defaultmeta.html'),
+        location: 'defaultmeta',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/ogmeta.html'),
+        location: 'ogmeta',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/menubar.html'),
+        location: 'menubar',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/footerbar.html'),
+        location: 'footerbar',
+        template_filename: '*',
+        priority: 'replace'
+      }
     ])
   ],
   optimization: {

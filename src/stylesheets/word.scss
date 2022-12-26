@@ -11,7 +11,18 @@
   position: relative;
   border-radius: 10px;
 
+  &.hidden {
+    display: none;
+  }
+
+  &.withHeading {
+    h1 {
+      display: block;
+    }
+  }
+
   h1 {
+    display: none;
     font-family: 'ADC';
     font-weight: 600;
     font-size: 12px;
@@ -24,7 +35,7 @@
   }
 
   .logo {
-    background-image: url('./images/ADC Logo White.svg');
+    background-image: url('./images/ADC-Logo-White.svg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     vertical-align: top;
@@ -48,10 +59,13 @@
     position: absolute;
     bottom: 22px;
     left: 10px;
+    display: flex;
+    flex-direction: column;
 
-    .Question {
+    .question {
+      align-self: flex-end;
       max-width: 70%;
-      display: inline-block;
+      // display: inline-block;
       background: #1a1a1a;
       color: #79ff39;
       padding: 12px 18px;
@@ -59,10 +73,11 @@
       font-weight: 400;
       font-size: 22px;
       line-height: 22px;
-      position: absolute;
-      right: 10px;
-      top: -56px;
+      // position: absolute;
+      // right: 10px;
+      // top: -56px;
     }
+
     .answerMessage {
       // font-size: calc(80vh/16*9/23.488);
       width: 218px;
@@ -75,7 +90,7 @@
       margin: 10px 0 0 34px;
 
       .remark {
-        color: #7A7A7A;
+        color: #7a7a7a;
       }
 
       .bold {
@@ -115,6 +130,12 @@
       height: 28px;
       margin-top: 10px;
 
+      .face {
+        width: 28px;
+        height: 28px;
+        background-image: url('images/Face.svg');
+      }
+
       .texting {
         margin: 2px 0 0 7px;
         width: 36px;
@@ -138,8 +159,9 @@
     }
   }
 }
+
 .page {
   width: 100vw;
   display: flex;
-  background: #1A1A1A;
+  background: #1a1a1a;
 }
