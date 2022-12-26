@@ -1,0 +1,145 @@
+.word {
+  width: 320px;
+  height: 568px;
+  background-image: url('./images/Background.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+
+  h1 {
+    font-family: 'ADC';
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 14px;
+    position: absolute;
+    left: 42px;
+    top: 56px;
+    color: white;
+  }
+
+  .logo {
+    background-image: url('./images/ADC Logo White.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    width: calc(100% / 7.0129);
+    height: calc(100% / 34.0365);
+    display: block;
+    position: absolute;
+    bottom: calc(100% / 64);
+    right: calc(100% / 36);
+  }
+  //
+  // .word {
+  //   width: calc(80vh/16*9);
+  //   height: 80vh;
+  //
+  // }
+  .answerMessages {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    width: 300px;
+    position: absolute;
+    bottom: 22px;
+    left: 10px;
+
+    .Question {
+      max-width: 70%;
+      display: inline-block;
+      background: #1a1a1a;
+      color: #79ff39;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 22px;
+      position: absolute;
+      right: 10px;
+      top: -56px;
+    }
+    .answerMessage {
+      // font-size: calc(80vh/16*9/23.488);
+      width: 218px;
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: white;
+      font-size: 15px;
+      line-height: 17px;
+      color: black;
+      margin: 10px 0 0 34px;
+
+      .remark {
+        color: #7A7A7A;
+      }
+
+      .bold {
+        font-weight: 500;
+      }
+    }
+
+    .answerIcon {
+      width: 88px;
+      height: 88px;
+      background: white;
+      border-radius: 8px;
+      margin: 10px 0 0 34px;
+      padding: 12px;
+
+      img {
+        height: 64px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .answerImage {
+      width: 218px;
+      border-radius: 8px;
+      background: white;
+      margin: 10px 0 0 34px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .ADCUser {
+      display: flex;
+      width: 71px;
+      height: 28px;
+      margin-top: 10px;
+
+      .texting {
+        margin: 2px 0 0 7px;
+        width: 36px;
+        height: 24px;
+        display: flex;
+        background: white;
+        border-radius: 8px;
+        padding: 12px 10px;
+
+        .dot {
+          width: 2.3px;
+          height: 2.3px;
+          background: black;
+          border-radius: 100%;
+        }
+
+        div.dot:nth-of-type(2) {
+          margin: -2px 4px 0 4px;
+        }
+      }
+    }
+  }
+}
+.page {
+  width: 100vw;
+  display: flex;
+  background: #1A1A1A;
+}
